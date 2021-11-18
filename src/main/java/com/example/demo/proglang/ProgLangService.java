@@ -26,6 +26,7 @@ public class ProgLangService {
             throw new IllegalStateException("Programming name already exists in database.");
         }
         progLangRepository.save(progLang);
+        System.out.println("blah");
     }
 
 }
